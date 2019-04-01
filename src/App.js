@@ -3,7 +3,6 @@ import logo from './logo.svg';
 import './App.css';
 
 import TitleComponent from './MyTitleComponent'
-import TitleComponentB from './MyTitleComponent'
 
 import InputComponent from './MyInputComponent'
 
@@ -13,7 +12,7 @@ class App extends Component {
     super(props)
 
     this.state = {
-      title: 'Workshop Title'
+      title: 'Workshop Title Bar Chart'
     }
 
     this.onTitleChange = this.onTitleChange.bind(this)
